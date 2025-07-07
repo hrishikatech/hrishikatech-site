@@ -33,7 +33,7 @@ header nav ul li a {
 #home {
     text-align: center;
     padding: 50px;
-    background-color: #ff6347;
+    background-color: #9f65a369;
     color: white;
 }
 
@@ -66,7 +66,7 @@ header nav ul li a {
 /* Contact Section */
 #contact {
     padding: 50px;
-    background-color: #ff6347;
+    background-color: #960a8630;
     color: white;
 }
 
@@ -79,4 +79,52 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+}
+.profile-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+.profile-container {
+  text-align: center;
+  margin: 30px 0; /* space above and below */
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+/* ===== My Story Section ===== */
+#story {
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#story h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#story p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
 }
