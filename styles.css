@@ -5,7 +5,6 @@ body {
     padding: 0;
     background-color: #f5f5f5;
     color: #333;
-}
 
 /* Header and Navbar */
 header {
@@ -115,7 +114,6 @@ footer {
   margin-top: 40px; /* spacing above footer */
 }
 
-}
 .profile-container {
   text-align: center;
   margin-top: 40px;
